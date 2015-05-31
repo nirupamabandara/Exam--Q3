@@ -34,5 +34,14 @@ C)In a unix system, Syslog file provides information about the activities of the
 
 Altering accounting files in unix is another method of covering tracks. utmp, wtmp, and lastlog files are the main accounting files in unix
 
+Method1 : Clearing Log Files (Root access)
+
+clear log files such as messageslog,xferlog,utmp,wtmp ect...most off the following files can be only accssed by a root,for clearing them root access is needed
+
+Method2:  (normal user)
+
+Clear bash history on the give account.once we attack in with a comrimised user account  we need to make sure we clear all our command history before leaving ,since this wold contain all are tracks on what the attacker performed.
+
+
 
 	 
