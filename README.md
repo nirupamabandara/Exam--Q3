@@ -30,6 +30,9 @@ RUID - is the real user ID
 The RUID is used to identify who the actual user is.
 the RUID is created at the initiation of the session and it will remain until the session is terminated. RUID cannot be changed. only the root can chage this RUID.
 
-C)
+C)In a unix system, Syslog file provides information about the activities of the machine, such as the user activity and history.IF the attacker clears this file, the illegal activities cannot be discovered.
+
+Altering accounting files in unix is another method of covering tracks. utmp, wtmp, and lastlog files are the main accounting files in unix
+
 
 	 
